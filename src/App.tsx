@@ -15,9 +15,15 @@ function App() {
   }, []);
 
   return (
-    <VaAlertExpandable trigger="Alert Headline" status="info">
-      <p>Alert content</p>
-    </VaAlertExpandable>
+    <>
+      <VaAlertExpandable trigger="React Alert Headline" status="info">
+        <p>React Alert content</p>
+      </VaAlertExpandable>
+
+      <va-alert-expandable trigger="Web Component Alert Headline" status="info">
+        <p>Web component alert content</p>
+      </va-alert-expandable>
+    </>
   );
 }
 
